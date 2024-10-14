@@ -1,8 +1,8 @@
 <?php
 
 /*
-    Plugin Name: Hello World Plugin
-    Description: Simple plugin that displays Hello World via shortcode.
+    Plugin Name: React Plugin Template
+    Description: Simple template for building a wordpress plugin using React with Typescript.
     Version: 1.0
     Author: Liam Imray
 */
@@ -17,7 +17,7 @@ function enqueue_react_scripts() {
     wp_enqueue_script('custom-react-script', plugin_dir_url(__FILE__) . 'dist/react-plugin-template.js', array('react', 'react-dom'), '1.0', true);
 }
 
-    // Add shortcode to display the search bar
+    // Add shortcode to display the plugin
     function react_plugin_template_shortcode() {
         return '<div id="react-plugin-template"></div>'; // React will render into this div
     }
