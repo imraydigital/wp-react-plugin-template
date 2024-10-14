@@ -4,12 +4,13 @@ A boilerplate template for creating WordPress plugins using React, TypeScript, a
 
 ## Features
 
-- **React**: Utilises React for building user interfaces.
-- **TypeScript**: Supports TypeScript for type safety and better development experience.
-- **CSS Modules**: Provides scoped CSS styles to avoid conflicts.
-- **Webpack**: Bundles your JavaScript files for production.
-- **ESLint**: Ensures code quality and consistency.
-- **Prettier**: Automatically formats your code.
+- **React 18**: Build modern, reactive UIs with the latest version of React.
+- **TypeScript**: Type-safe JavaScript with TypeScript integration.
+- **CSS Modules**: Write modular and scoped CSS to avoid global style conflicts.
+- **Webpack**: Bundle your assets with Webpack for development and production environments.
+- **Babel**: ES6+ and JSX transpiling with Babel.
+- **Loader Support**: Includes support for TypeScript, CSS Modules, and more.
+- **No Unit Tests**: Currently, no testing framework is configured, but you can add your own.
 
 ## Requirements
 
