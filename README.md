@@ -38,5 +38,3 @@ To build your plugin for production, run:
 
 ```bash
 npm run build
-
-   
