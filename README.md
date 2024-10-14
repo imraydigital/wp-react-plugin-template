@@ -4,7 +4,7 @@ A boilerplate template for creating WordPress plugins using React, TypeScript, a
 
 ## Features
 
-- **React**: Utilizes React for building user interfaces.
+- **React**: Utilises React for building user interfaces.
 - **TypeScript**: Supports TypeScript for type safety and better development experience.
 - **CSS Modules**: Provides scoped CSS styles to avoid conflicts.
 - **Webpack**: Bundles your JavaScript files for production.
@@ -38,3 +38,5 @@ To build your plugin for production, run:
 
 ```bash
 npm run build
+
+This will create a production-ready version of your plugin in the dist folder, which you can then upload to your WordPress installation.
