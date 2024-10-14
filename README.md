@@ -54,8 +54,10 @@ To display the React plugin on the frontend of your WordPress theme, you need to
 If you'd like to change the shortcode name to something more specific to your plugin, you can modify it in the react-plugin-template.php file:
 
 ```bash
-function render_react_plugin_template() {
+function react_plugin_template_shortcode() {
     // Add the logic to enqueue and render your React component here
+   //e.g. return '<div id="your-custom-class-name"></div>'; // React will render into this div
 }
-add_shortcode('your_custom_shortcode', ''react_plugin_template_shortcode'e');
+add_shortcode('your_custom_shortcode', ''react_plugin_template_shortcode');
 ```
+If you do change the name of your shortcode or create any custom divs for rendering, be sure to update these in the index.tsx file createRoot function so that your React plugin is displayed and rendered in the correct location.
