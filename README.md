@@ -58,6 +58,6 @@ function react_plugin_template_shortcode() {
     // Add the logic to enqueue and render your React component here
    //e.g. return '<div id="your-custom-class-name"></div>'; // React will render into this div
 }
-add_shortcode('your_custom_shortcode', ''react_plugin_template_shortcode');
+add_shortcode('your_custom_shortcode', 'react_plugin_template_shortcode');
 ```
 If you do change the name of your shortcode be sure to update the shortcode in the front-end of your wordpress theme. IF you change the name of the div id, or create any custom divs for rendering, be sure to update these in the index.tsx file createRoot function so that your React plugin is displayed and rendered in the correct location.
