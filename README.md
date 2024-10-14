@@ -41,3 +41,9 @@ To build your plugin for production, run:
 npm run build
 
 This will create a production-ready version of your plugin in the dist folder, which you can then upload to your WordPress installation.
+
+Displaying the Plugin in WordPress
+To display the React plugin on the frontend of your WordPress theme, you need to use a shortcode. By default, the shortcode is set in the react-plugin-template.php file as:
+
+```bash
+[react_plugin_template]
