@@ -57,5 +57,5 @@ If you'd like to change the shortcode name to something more specific to your pl
 function render_react_plugin_template() {
     // Add the logic to enqueue and render your React component here
 }
-add_shortcode('your_custom_shortcode', 'render_react_plugin_template');
+add_shortcode('your_custom_shortcode', ''react_plugin_template_shortcode'e');
 ```
