@@ -25,15 +25,18 @@ A boilerplate template for creating WordPress plugins using React, TypeScript, a
    git clone https://github.com/yourusername/wordpress-react-plugin-template.git
    
 2. **Navigate into the repository**:
-   
-  cd wordpress-react-plugin-template
+3. 
+   ```bash
+   cd wordpress-react-plugin-template
 
 3. **Install dependencies**:
 
+   ```bash
    npm install
 
 To build your plugin for production, run:
 
+```bash
 npm run build
 
    
