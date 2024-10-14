@@ -23,11 +23,11 @@ A boilerplate template for creating WordPress plugins using React, TypeScript, a
 1. **Clone the repository**:
 
    ```bash
-   git clone https://github.com/imraydigital/wordpress-react-plugin-template.git
+   git clone https://github.com/imraydigital/wp-react-plugin-template.git
    
 2. **Navigate into the repository**:
    ```bash
-   cd wordpress-react-plugin-template
+   cd wp-react-plugin-template
    ```
 
 3. **Install dependencies**:
